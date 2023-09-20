@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.items{
+    width: 100%;
+    margin: auto;
+}
+header{
+    background: url(jik.jpg);
+    height: 100vh;
+    background-size:  cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background: grey;
+    border-radius: 5px;
+}
+.logo{
+    color: white;
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width:750px) {
+    .logo{
+        float: none;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 15px;
+
+    }
+    .menu{
+        float: none;
+        text-align: center;
+        margin-top: 0;
+    }
+    .menu li a{
+        padding: 5px;
+        font-size: 11px;
+    }
+    
+}
